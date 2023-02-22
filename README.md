@@ -2,8 +2,6 @@
 
 https://github.com/jkriege2/TinyTIFF
 
-
-
 **Security Issue Report**
 
 A heap-buffer-overflow issue was discovered in TinyTIFF in tinytiffreader.c file. The flow allows an attacker to cause a denial of service (abort) via a crafted file.
@@ -22,9 +20,10 @@ SUMMARY: AddressSanitizer: heap-buffer-overflow (/home/ubuntu/Desktop/TinyTIFF/s
     #4 0x41c3bd in _start (/home/ubuntu/Desktop/TinyTIFF/src/asan_tinytiffreader+0x41c3bd)
 ```
 
-[Poc file](https://github.com/10cksYiqiyinHangzhouTechnology/Security-Issue-Report-of-TinyTIFF/blob/main/id8)
+[Poc file](https://github.com/wavesky327/tinytiff/blob/main/id28)
 
-[asan_tinytiffreader](https://github.com/10cksYiqiyinHangzhouTechnology/Security-Issue-Report-of-TinyTIFF/blob/main/asan_tinytiffreader)
+[asan_tinytiffreader](https://github.com/wavesky327/tinytiff/blob/main/asan_tinytiffreader)
+
 
 **ASAN Report:**
 
